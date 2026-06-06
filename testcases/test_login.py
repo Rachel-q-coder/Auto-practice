@@ -1,5 +1,5 @@
 from threading import active_count
-
+from pathlib import Path
 import pytest
 import requests
 import pandas as pd
@@ -12,7 +12,8 @@ import allure
 #将读取的excel转换为字典
 @allure.story("获取excel测试用例")
 def access_excel():
-    datas_form = pd.read_excel(r"C:\Users\30493\OneDrive\文档\工作簿1.xlsx", sheet_name="import_excel")
+    excel_path =Path(__file__).parent.parent/"data_cases"/"login_data.xlsx"
+    datas_form = pd.read_excel(excel_path, sheet_name="import_excel")
     datas = datas_form.to_dict(orient="records")
     return datas
 datas = access_excel()
