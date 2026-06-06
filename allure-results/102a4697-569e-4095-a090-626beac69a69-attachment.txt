@@ -1,0 +1,6 @@
+2026-06-06 11:49:59,630 - test_api - INFO -开始进行登录测试
+2026-06-06 11:49:59,630 - test_api - INFO -请求的url：http://shop-xo.hctestedu.com/index.php
+2026-06-06 11:49:59,631 - test_api - INFO -请求参数：{'s': 'api/user/login', 'application': 'app', 'application_client_type': 'weixin'}
+2026-06-06 11:49:59,632 - test_api - INFO -请求体：{'accounts': 'qqqqqq', 'pwd': 'xxx***xxx', 'type': 'username'}
+2026-06-06 11:50:00,724 - test_api - INFO -登录测试结束
+2026-06-06 11:50:00,724 - test_api - INFO -登录的状态码为：0

@@ -1,0 +1,6 @@
+[32mINFO    [0m test_api:test_login.py:29 开始进行登录测试
+[32mINFO    [0m test_api:login_api.py:7 请求的url：http://shop-xo.hctestedu.com/index.php
+[32mINFO    [0m test_api:login_api.py:14 请求参数：{'s': 'api/user/login', 'application': 'app', 'application_client_type': 'weixin'}
+[32mINFO    [0m test_api:login_api.py:21 请求体：{'accounts': 'huace004', 'pwd': 1234, 'type': 'username'}
+[32mINFO    [0m test_api:test_login.py:32 登录测试结束
+[32mINFO    [0m test_api:test_login.py:33 登录的状态码为：-3
